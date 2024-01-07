@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">pingbdkt</string>
+    <string-array name="country_list">
+        <item>Bangladesh</item>
+        <item>Pakistan</item>
+        <item>Iraq</item>
+        <item>Turkey</item>
+        <item>Maldiv</item>
+        <item>Iran</item>
+    </string-array>
+</resources>
