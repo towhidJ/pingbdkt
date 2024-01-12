@@ -33,6 +33,9 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+    buildFeatures {
+        viewBinding = true
+    }
 
 }
 
@@ -52,6 +55,8 @@ dependencies {
     implementation ("de.hdodenhof:circleimageview:3.1.0")
 
     implementation ("com.github.bumptech.glide:glide:4.14.2")
+    implementation("androidx.navigation:navigation-fragment-ktx:2.6.0")
+    implementation("androidx.navigation:navigation-ui-ktx:2.6.0")
     annotationProcessor ("com.github.bumptech.glide:compiler:4.14.2")
 
     implementation ("de.hdodenhof:circleimageview:3.1.0")

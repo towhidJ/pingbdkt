@@ -2,32 +2,18 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_layout"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    tools:openDrawer="start"
     tools:context=".MainActivity">
 
-
-
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recycleView"
+<include layout="@layout/toolbar" android:id="@+id/tool_bar"/>
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_height="match_parent">
 
-<!--    <ListView-->
-<!--        android:listSelector="#AB9D24"-->
-<!--        android:divider="#F4DD11"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="match_parent"-->
-
-<!--        android:id="@+id/listviewCountry"-->
-<!--        android:layout_margin="10dp"-->
-
-
-<!--        ></ListView>-->
+    </ScrollView>
 
 </LinearLayout>
